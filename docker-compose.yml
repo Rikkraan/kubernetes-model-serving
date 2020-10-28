@@ -1,0 +1,6 @@
+version: "3.3"
+services:
+  train:
+    build: .
+    ports:
+      - "5000:5000"
